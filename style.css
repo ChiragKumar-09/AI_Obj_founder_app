@@ -1,0 +1,83 @@
+.heading {
+    font-size:  28px;
+    width: 100%;
+    margin: 0px;
+    border: 10px solid rebeccapurple;
+    box-shadow: 10px 10px 17px rebeccapurple;
+}
+
+.heading:hover {
+    font-size:  28px;
+    width: 100%;
+    margin: 0px;
+    border: 10px solid rebeccapurple;
+    box-shadow: 10px 10px 17px rebeccapurple;
+    background-color: white !important;
+    cursor: default !important;
+}
+
+#start:hover {
+    background-color: white;
+    color: darkorange;
+}
+
+#start {
+    background-color: darkorange;
+    color: white;
+}
+
+body {
+    background-size: cover;
+}
+
+#start , #number_of_objects , #status {
+    font-size: 20px;
+}
+
+.footer_div {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    line-height: 3;
+}
+
+canvas {
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 5px , 5px , 15px , white;
+    margin-top: 130px;
+}
+
+label {
+    color: lightpink;
+    font-size: 16px;
+    letter-spacing: 0.2;
+}
+
+img {
+    width: 95px;
+    height: 75px;
+}
+
+input {
+    width: 50%;
+    margin-left: 2px;
+    background-color: hotpink;
+    color: rgb(247, 238, 239);
+}
+
+input::placeholder {
+    color: rgb(247, 238, 239);
+}
+
+h3 {
+    background-color: darkgreen !important;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bolder;
+}
