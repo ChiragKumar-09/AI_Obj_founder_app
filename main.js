@@ -22,10 +22,10 @@ function draw() {
 
             fill("#FF1493");
             percent = objects[i].confidence * 100 ;
-            text(objects[i].label+" "+percent+"%" , objects[i].x + 15 , bjects[i].y + 15);
+            text(objects[i].label+" "+percent+"%" , objects[i].x + 15 , objects[i].y + 15);
             noFill();
             stroke("#FF1493");
-            rect(bjects[i].x , bjects[i].y , bjects[i].width , bjects[i].height);
+            rect(objects[i].x , objects[i].y , objects[i].width , objects[i].height);
 
             if (objects[i].label == object_name) {
                 video.stop();
